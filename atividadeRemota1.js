@@ -10,3 +10,11 @@ if ( pecaPeso >= 100) {
 }
 
 // • Dada a capacidade de cada caixa, caso a lista de peças seja superior a 10, imprima uma mensagem informando não ter capacidade suficiente.
+let listaDePecas = ["Cilindros", "bombas d'água", "coxins", "polias", "juntas homocinéticas", "semi eixos", "suspensão","Amortecedor da suspensão", "Anel de pistão", "Bomba elétrica"]
+let quantidadeDePecas = listaDePecas.length
+
+if (quantidadeDePecas > 10) {
+    console.log("Poxa, devido à quantidade de itens na sua lista, não teremos capacidade em nossas caixas.");
+} else {
+    console.log("Uhul! seus itens logo serão empacotados!");
+}
