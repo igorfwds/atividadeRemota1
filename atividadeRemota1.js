@@ -1,5 +1,3 @@
-// • Caso a peça tenha um nome com quantidade inferior a 3 caracteres, informe uma mensagem de erro.
-
 // • Se a peça possuir um peso superior a 100gramas, pode cadastrar.
 let pecaPeso = 99.9;
 
@@ -18,3 +16,6 @@ if (quantidadeDePecas > 10) {
 } else {
     console.log("Uhul! seus itens logo serão empacotados!");
 }
+
+// • Caso a peça tenha um nome com quantidade inferior a 3 caracteres, informe uma mensagem de erro.
+
